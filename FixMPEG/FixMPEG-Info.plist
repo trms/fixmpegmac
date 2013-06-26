@@ -4,6 +4,124 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>mpg</string>
+				<string>mpeg</string>
+				<string>mpeg1</string>
+				<string>mpeg2</string>
+			</array>
+			<key>CFBundleTypeMIMETypes</key>
+			<array>
+				<string>video/mpeg</string>
+				<string>video/mpg</string>
+				<string>video/x-mpg</string>
+				<string>video/mpeg2</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>MPEG File</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSTypeIsPackage</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>wmv</string>
+				<string>wm</string>
+				<string>asf</string>
+				<string>wmx</string>
+			</array>
+			<key>CFBundleTypeMIMETypes</key>
+			<array>
+				<string>audio/x-ms-wmv</string>
+				<string>video/x-ms-wmv</string>
+				<string>video/x-ms-asf</string>
+				<string>video/x-ms-wmx</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>Windows Media Video</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSTypeIsPackage</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>mov</string>
+			</array>
+			<key>CFBundleTypeMIMETypes</key>
+			<array>
+				<string>video/quicktime</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>Quicktime</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>avi</string>
+			</array>
+			<key>CFBundleTypeMIMETypes</key>
+			<array>
+				<string>video/x-msvideo</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>AVI</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>3gp</string>
+			</array>
+			<key>CFBundleTypeMIMETypes</key>
+			<array>
+				<string>video/3gpp</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>3GP Mobile</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>mp4</string>
+				<string>m4v</string>
+			</array>
+			<key>CFBundleTypeMIMETypes</key>
+			<array>
+				<string>video/mp4</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>MPEG4</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>flv</string>
+			</array>
+			<key>CFBundleTypeMIMETypes</key>
+			<array>
+				<string>video/x-flv</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>Flash Video</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+	</array>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
@@ -27,7 +145,7 @@
 	<key>LSMinimumSystemVersion</key>
 	<string>${MACOSX_DEPLOYMENT_TARGET}</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2013 trms.com. All rights reserved.</string>
+	<string>Copyright © 2013 Tightrope Media Systems. All rights reserved.</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
